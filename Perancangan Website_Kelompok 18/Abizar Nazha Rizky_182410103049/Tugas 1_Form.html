@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tugas 1 Form</title>
+	<title>Data Diri</title>
+	<link rel="stylesheet" type="text/css" href="Design.css">
 </head>
-<body background="https://images.unsplash.com/photo-1541727687969-ce40493cd847?ixlib=rb-1.2.1&auto=format&fit=crop&w=1569&q=80">
-		<h1 align="center"><font style="font-family: calibri; color: white">LOGIN TO YOUR ACCOUNT</font></h1>
-	<br>
-		<form align="center">
-			<p>
-			<input type="text" name="Username" placeholder="Username" required="">
-			</p>
-			<input type="number" name="NIM" placeholder="NIM" required="">
-			</p>
-			<input type="Password" name="Password" placeholder="Password" required=""><br>
-			<br><font color="white">Pilih Jenis Kelamin</font> <br><br>
-			<input type="radio" name="Jenis Kelamin" required=""><font color="white">Laki-Laki</font>
-			<input type="radio" name="Jenis Kelamin" required=""><font color="white">Perempuan</font><br><br>
-			<input type="checkbox" name="Setuju" required=""><font color="white">Saya Menyetujui Persyaratan</font><br><br>
-			<input type="submit" name="Submit" value="Login">
+<body >
+	<div class="inside">
+		<h1>Data Diri</h1>
+		<form autocomplete="off" method="POST">
+			<div class="title" align="center">
+				<input type="text" name="Username" placeholder="Username" required="">
+				<input type="number" name="NIM" placeholder="NIM" required="">
+				<input type="Password" name="Password" placeholder="Password" required="">
+			</div>
+			<div class="tombol">
+				<h2>Jenis Kelamin</h2>
+				<label class="radio">
+					<input type="radio" value="Laki-laki" name="Jenis Kelamin">Laki-laki
+					<span></span>
+				</label>
+				<label class="radio">
+					<input type="radio" value="Perempuan" name="Jenis Kelamin">Perempuan
+					<span></span>
+				</label>
+			</div>
+			<div class="submit">
+				<label class="checkbox">
+				<input type="checkbox" name="Setuju" required="">Saya Menyetujui Persyaratan
+				<span></span>
+				</label>
+			</div>
+		<input type="submit" name="Submit" value="Login">
 		</form>
+	</div>
 </body>
 </html>
