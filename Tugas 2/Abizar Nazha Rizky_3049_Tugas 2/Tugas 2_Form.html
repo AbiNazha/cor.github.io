@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Diri</title>
+	<link rel="stylesheet" type="text/css" href="Design.css">
+</head>
+<body >
+	<div id="daftar" class="inside">
+		<h1>Register</h1>
+		<form autocomplete="off" method="POST">
+			<div class="title" align="center">
+				<input type="text" name="Username" placeholder="Username" required="">
+				<input type="number" name="NIM" placeholder="NIM" required="">
+				<input type="Password" name="Password" placeholder="Password" required="">
+			</div>
+			<div class="tombol">
+				<h2>Jenis Kelamin</h2>
+				<label class="radio">
+					<input type="radio" value="Laki-laki" name="Jenis Kelamin">Laki-laki
+					<span></span>
+				</label>
+				<label class="radio">
+					<input type="radio" value="Perempuan" name="Jenis Kelamin">Perempuan
+					<span></span>
+				</label>
+			</div>
+			<div class="submit">
+				<label class="checkbox">
+				<input type="checkbox" name="Setuju" required="">Saya Menyetujui Persyaratan
+				<span></span>
+				</label>
+			</div>
+		<input type="submit" name="Submit" value="Daftar">
+		</form>
+	</div>
+	<div id="Login" class="inside2">
+		<h1>Login</h1>
+		<form autocomplete="off" method="POST">
+			<div class="title" align="center">
+				<input type="text" name="Username" placeholder="Username" required="">
+				<input type="Password" name="Password" placeholder="Password" required="">
+		<input type="submit" name="Submit" value="Login">
+		</form>
+	</div>
+</body>
+</html>
