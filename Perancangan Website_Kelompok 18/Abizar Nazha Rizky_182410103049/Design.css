@@ -28,10 +28,10 @@ body:before{
 }
 
 .inside{
-	top: 50%;
-	left: 50%;
+/*	top: 50%;
+	left: 50%;*/
 	position: absolute;
-	transform: translate(-50%,-50%);
+	transform: translate(40%,30%);
 	width: 400px;
 	padding: 40px;
 	box-sizing: border-box;
@@ -39,7 +39,27 @@ body:before{
 	background: rgba(0,102,204,.3);
 }
 
+.inside2{
+/*	top: 50%;
+	left: 50%;*/
+/*	margin-left: 100px;*/
+	margin-top: 7px;
+	position: absolute;
+	transform: translate(200%,30%);
+	width: 400px;
+	padding: 100px;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	background: rgba(0,102,204,.3);
+}
+
 .inside h1{
+	text-align: center;
+	padding: 0px;
+	margin: 0 0 30px;
+}
+
+.inside2 h1{
 	text-align: center;
 	padding: 0px;
 	margin: 0 0 30px;
@@ -78,7 +98,7 @@ body:before{
 
 }
 
-.inside input[type="submit"]{
+.inside input[type="submit"], .inside2 input[type="submit"]{
 	background: rgba(0,102,204,.3);
 	display: flex;
 	flex-wrap: wrap;
@@ -96,7 +116,7 @@ body:before{
 	height: 25px;
 	cursor: pointer;
 }
-.inside input[type="submit"]:hover{
+.inside input[type="submit"]:hover, .inside2 input[type="submit"]:hover{
 	width: 145px;
 	outline: none;
 	border-color: #ffeb00;
