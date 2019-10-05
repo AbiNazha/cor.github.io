@@ -1,0 +1,85 @@
+body{
+    background-image:url(bag.jpg);
+    background-size:cover;
+
+}
+#test{padding:20px}
+    h1{text-align:center; color:#FFF}
+    p{margin-bottom:10px; color:#FFF}
+.icon58{
+    height: 480px;
+    width: 700px;
+    transform: translate(100px,-300px);
+}
+.masuk {
+    transform: translate(1120px, 4px);
+    font-size: 20px;
+}
+.daftar{
+    background: #20B2AA;
+    transform: translate(1180px,-40px);
+
+    color: white;
+    font-size: 11pt;
+    width: 8%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.garis_verikal{
+        border-left: 1px black solid;
+        height: 30px;
+        width: 0px;
+        transform: translate(1110px,-75px);
+    }
+.garis_verikal1{
+        border-left: 1px black solid;
+        height: 30px;
+        width: 0px;
+        transform: translate(1030px,-158px);
+    }
+.garis_verikal2{
+        border-left: 1px black solid;
+        height: 30px;
+        width: 0px;
+        transform: translate(920px,-242px);
+    }
+.garis_verikal3{
+        border-left: 1px black solid;
+        height: 30px;
+        width: 0px;
+        transform: translate(800px,-326px);
+    }
+.tentang{
+    transform: translate(1040px, -120px);
+    font-size: 20px;
+}
+.guru{
+    transform: translate(930px, -204px);
+    font-size: 20px;
+}
+.siswa{
+    transform: translate(810px, -287px);
+    font-size: 20px;
+}
+.beranda{
+    transform: translate(715px, -371px);
+    font-size: 20px;
+}
+.tin{
+    font-size: 50px;
+    transform: translate(380px,-280px);
+}
+.tin1{
+    font-size: 20px;
+    transform: translate(430px,-300px);
+}
+.joinus{
+    background: #20B2AA;
+    text-decoration: none;
+    color: white;
+    font-size: 11pt;
+    width: 4%;
+    padding: 5px;
+    border-radius: 10px;
+    transform: translate(170px,30px);
+}
