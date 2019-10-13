@@ -1,5 +1,5 @@
 body{
-	background: url(bag.jpg) no-repeat;
+	background: url("../Background/bag.jpg") no-repeat;
 	background-size: 100%;
 	position: fixed;
 	top: -10px;
@@ -14,7 +14,7 @@ body{
 
 body:before{
 	content: '';	
-	background: url(bag.jpg) no-repeat;
+	background: url("../Background/bag.jpg") no-repeat;
 	background-size: cover;
 	position: fixed;
 	left: 0;

@@ -1,5 +1,5 @@
 body{
-	background: url(bgtentang.png) no-repeat;
+	background: url("../Background/bgtentang.png") no-repeat;
 	background-size: 100%;
 	position: fixed;
 	top: -10px;

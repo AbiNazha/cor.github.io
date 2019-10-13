@@ -1,6 +1,6 @@
 
 body{
-	background: url(books.jpg) no-repeat;
+	background: url("../Background/books.jpg") no-repeat;
 	background-size: 100%;
 	position: fixed;
 	top: -10px;
@@ -15,7 +15,7 @@ body{
 
 body:before{
 	content: '';	
-	background: url(books.jpg) no-repeat;
+	background: url("../Background/books.jpg") no-repeat;
 	background-size: cover;
 	position: fixed;
 	left: 0;

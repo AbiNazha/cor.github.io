@@ -1,5 +1,5 @@
 body{
-	background: url(writing.png) no-repeat;
+	background: url("../Background/writing.png") no-repeat;
 	background-size: 100%;
 	position: fixed;
 	top: -10px;
@@ -14,7 +14,7 @@ body{
 
 body:before{
 	content: '';	
-	background: url(writing.png) no-repeat;
+	background: url("../Background/writing.png") no-repeat;
 	background-size: cover;
 	position: fixed;
 	left: 0;
