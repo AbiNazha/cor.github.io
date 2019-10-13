@@ -1,6 +1,5 @@
-
 body{
-	background: url(books.jpg) no-repeat;
+	background: url(writing.png) no-repeat;
 	background-size: 100%;
 	position: fixed;
 	top: -10px;
@@ -15,7 +14,7 @@ body{
 
 body:before{
 	content: '';	
-	background: url(books.jpg) no-repeat;
+	background: url(writing.png) no-repeat;
 	background-size: cover;
 	position: fixed;
 	left: 0;
@@ -23,21 +22,21 @@ body:before{
 	top: 0;
 	bottom: 0;
 	z-index: -1;
-	filter: blur(6px);
+	filter: blur(2px);
 }
 
 .bgcolor{
 	position: absolute;
-	background: rgba(0,0,0,.2);
+	background: rgba(0,0,0,.3);
 	width: 100%;
 	height: 100%;
 	z-index: -1;
 }
 
-.belajar{
+.line{
 	position: absolute;
-	top: 215px;
-	left: 123px;
+	top: 235px;
+	left: 700px;
 	width: 437px;
 	height: 280px;
 	opacity: 1;
@@ -54,7 +53,7 @@ body:before{
 .garis{
 	position: absolute;
 	top: 30px;
-	left: 61.5px;
+	left: 171px;
 	width: 50px;
 	border: 2px solid #FF0000;
 	border-radius: 50px;
@@ -131,20 +130,6 @@ body:before{
 	height: 6px;
 }
 
-.bergabung{
-	position: absolute;
-	outline: none;
-	cursor: pointer;
-	top: 490px;
-	left: 642px;
-	width: 130px;
-	height: 50px;
-	background: transparent;
-	box-shadow: -3px 5px 17px #000000;
-	border: 2px solid #02B79E;
-	border-radius: 10px;
-}
-
 .f1{
 	font-size: 18px;
 	text-align: left;
@@ -156,9 +141,21 @@ body:before{
 .tulis{
 	position: absolute;
 	color: white;
-	top: 215px;
-	left: 640px;
+	top: 230px;
+	left: 100px;
 	font-size: 45px;
+	letter-spacing: 4.5px;
+}
+
+.tulis2{
+	position: absolute;
+	color: white;
+	top: 330px;
+	left: 110px;
+	text-align: left;
+	font: Regular 35px/42px SimSun-ExtB;
+	letter-spacing: 3px;
+	font-weight: 2;
 }
 
 .tombollogin{
@@ -193,7 +190,6 @@ body:before{
     font-size: 45px;
     font-weight: 50;
     z-index: 999;
-
 }
 
 .close:hover,.close:focus {

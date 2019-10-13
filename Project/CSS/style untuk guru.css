@@ -1,6 +1,5 @@
-
 body{
-	background: url(books.jpg) no-repeat;
+	background: url(bag.jpg) no-repeat;
 	background-size: 100%;
 	position: fixed;
 	top: -10px;
@@ -15,7 +14,7 @@ body{
 
 body:before{
 	content: '';	
-	background: url(books.jpg) no-repeat;
+	background: url(bag.jpg) no-repeat;
 	background-size: cover;
 	position: fixed;
 	left: 0;
@@ -23,24 +22,15 @@ body:before{
 	top: 0;
 	bottom: 0;
 	z-index: -1;
-	filter: blur(6px);
+	filter: blur(2px);
 }
 
 .bgcolor{
 	position: absolute;
-	background: rgba(0,0,0,.2);
+	background: rgba(0,0,0,.3);
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-}
-
-.belajar{
-	position: absolute;
-	top: 215px;
-	left: 123px;
-	width: 437px;
-	height: 280px;
-	opacity: 1;
 }
 
 .navbar{
@@ -54,7 +44,7 @@ body:before{
 .garis{
 	position: absolute;
 	top: 30px;
-	left: 61.5px;
+	left: 297px;
 	width: 50px;
 	border: 2px solid #FF0000;
 	border-radius: 50px;
@@ -110,7 +100,7 @@ body:before{
 	font-size: 18px;
 	outline: none;
 	padding: 5px;
-	background:#02B79E;
+	background: #27A4E3;
 	border-radius: 7px;
 	cursor: pointer;
 }
@@ -131,34 +121,46 @@ body:before{
 	height: 6px;
 }
 
-.bergabung{
+.JoinUs{
 	position: absolute;
 	outline: none;
 	cursor: pointer;
+	border: none;
 	top: 490px;
 	left: 642px;
-	width: 130px;
-	height: 50px;
-	background: transparent;
+	width: 100px;
+	height: 35px;
+	background: #27A4E3;
 	box-shadow: -3px 5px 17px #000000;
-	border: 2px solid #02B79E;
-	border-radius: 10px;
+	border-radius: 7px;
 }
 
 .f1{
 	font-size: 18px;
 	text-align: left;
 	letter-spacing: 0;
-	color: #02B79E;
-	text-shadow: -3px 5px 10px #00000099;
+	color: white;
 }
 
 .tulis{
 	position: absolute;
 	color: white;
-	top: 215px;
-	left: 640px;
-	font-size: 45px;
+	top: 170px;
+	left: 350px;
+	font-size: 55px;
+	letter-spacing: 4.5px;
+}
+
+.tulis2{
+	position: absolute;
+	color: white;
+	top: 300px;
+	left: 430px;
+	text-align: center;
+	font: Regular 35px/42px SimSun-ExtB;
+	letter-spacing: 3px;
+	font-weight: 2;
+	font-size: 20px;
 }
 
 .tombollogin{
@@ -193,7 +195,6 @@ body:before{
     font-size: 45px;
     font-weight: 50;
     z-index: 999;
-
 }
 
 .close:hover,.close:focus {
@@ -213,12 +214,11 @@ body:before{
 	font-size: 35px;
 	color: white;
 }
-
 .box{
 	top: 100px;
 	width: 450px;
 	height: 450px;
-	background-color: #02B79E;
+	background-color: #27A4E3;
 	border-radius: 10px;
 	padding: 20px;
 	text-align: center;
@@ -257,7 +257,7 @@ body:before{
 	cursor: pointer;
 	padding: 10px;
 	background-color: #E2E2E2;
-	color: #02B79E;
+	color: #27A4E3;
 	font-size: 20px;
 }
 
@@ -355,7 +355,7 @@ body:before{
 	top: -15px;
 	border: none;
 	outline: none;
-	background: #8BC2B7;
+	background: #27A4E3;
 	height: 30px;
 	width: 80px;
 	margin-top: 20px;
@@ -523,7 +523,7 @@ input[type=number]::-webkit-outer-spin-button {
 	top: -15px;
 	border: none;
 	outline: none;
-	background: #8BC2B7;
+	background: #27A4E3;
 	height: 30px;
 	width: 80px;
 	margin-top: 20px;

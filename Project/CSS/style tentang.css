@@ -1,0 +1,106 @@
+body{
+	background: url(bgtentang.png) no-repeat;
+	background-size: 100%;
+	position: fixed;
+	top: -10px;
+	left: -10px;
+	width: 1366px;
+	height: 768px;
+/*	backdrop-filter: blur(6px);*/
+/*	-webkit-backdrop-filter: blur(6px);*/
+	font-family: Segoe UI;
+	color: white;
+}
+
+.bgcolor{
+	position: absolute;
+	background: rgba(0,0,0,.2);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.navbar{
+	position: absolute;
+	width: 100%;
+	top: 15px;
+	height: 63px;
+	background: rgba(0,0,0,0.1);
+}
+
+.garis{
+	position: absolute;
+	top: 30px;
+	left: 407px;
+	width: 50px;
+	border: 2px solid #FF0000;
+	border-radius: 50px;
+	opacity: 1;
+}
+
+.navbar ul{
+	font-size: 20px;
+	top: -5px;
+	left: 800px;
+	position: absolute;
+	display: flex;
+    list-style-type: none;
+}
+
+.navbar li a{
+	text-decoration: none;
+	margin-left: 13px;
+	color: white;
+	font-weight: 100;
+}
+
+.nav1 a{
+	padding-right: 13px;
+	border-right: 1px solid rgba(255,255,255,1);
+}
+
+.logo{
+	position: relative;
+	top: -10px;
+	left: 41px;
+	width: 150px;
+}
+
+.top{
+	position: absolute;
+	background: rgba(39, 164, 227, 1) 0% 0% no-repeat padding-box;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 6px;
+}
+
+.tulis{
+	position: absolute;
+	color: white;
+	top: 100px;
+	left: 300px;
+	font-size: 55px;
+	letter-spacing: 4.5px;
+}
+
+.tulis2{
+	position: absolute;
+	color: white;
+	top: 220px;
+	left: 310px;
+	text-align: center;
+	font: Regular 35px/42px SimSun-ExtB;
+	letter-spacing: 3px;
+	font-weight: 2;
+	font-size: 20px;
+}
+
+.book{
+	position: absolute;
+	top: 170px;
+	left: 710px;
+	width: 530px;
+	height: 400px;
+	border-radius: 7px;
+}
