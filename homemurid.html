@@ -15,8 +15,8 @@
 		<li><a href="#"><img src="Project/Background/home.png" ></a></li>
 		<li><a href="courslistmurid.html"><img src="Project/Background/list.png" ></a></li>
 		<li><a href="messagemurid.html"><img src="Project/Background/chat.png" ></a></li>
-		<li><a href="#"><img src="Project/Background/bell.png" ></a></li>
-		<li><a href="#"><img src="Project/Background/profil.png"></a><li>
+		<li><a class="klik" onclick="notif1()"><img src="Project/Background/bell.png" ></a></li>
+		<li><a class="klik" onclick="notifprofil()"><img src="Project/Background/profil.png"></a>
 	</ul>
 </div>
 <p></p>
@@ -65,8 +65,37 @@
 	<p class="pp">privacy policy</p>
 	<p class="contus">Contact Us</p>
 </div>
+<!-- notif -->
+<div id="popup1" class="popupnotif">
+	<p class="notif">No Notification</p>
+</div>
+<!-- profil -->
+<div id="popup2" class="popupprofil">
+		
+</div>
 
-
+<script type="text/javascript">
+	function notif1(){
+		var x = document.getElementById("popup1");
+		var y = document.getElementById("popup2");
+		if (x.style.display == "none") {
+			y.style.display = "none"
+			x.style.display = "block"
+		}else{
+			x.style.display = "none"
+		}
+	}
+	function notifprofil(){
+		var x = document.getElementById("popup1");
+		var y = document.getElementById("popup2");
+		if (y.style.display == "none") {
+			y.style.display = "block"
+			x.style.display = "none"
+		}else{
+			y.style.display = "none"
+		}
+	}
+</script>
 
 </body>
 </html>
