@@ -15,8 +15,8 @@
 		<li><a href="homemurid.html"><img src="Project/Background/home.png" ></a></li>
 		<li><a href="#"><img src="Project/Background/list.png" ></a></li>
 		<li><a href="messagemurid.html"><img src="Project/Background/chat.png" ></a></li>
-		<li><a href="#"><img src="Project/Background/bell.png" ></a></li>
-		<li><a href="#"><img src="Project/Background/profil.png"></a></li>
+		<li><a class="klik" onclick="notif1()"><img src="Project/Background/bell.png" ></a></li>
+		<li><a class="klik" onclick="notifprofil()"><img src="Project/Background/profil.png"></a>
 	</ul>
 </div>
 <p></p>
@@ -36,7 +36,66 @@
 	<p class="contus">Contact Us</p>
 </div>
 
+<!-- notif -->
+<div id="popup1" class="popupnotif">
+	<p class="notif">No Notification</p>
+</div>
+<!-- profil -->
+<div id="popup2" class="popupprofil"><b><a href="#" class="teksprofil"><span style="cursor:pointer" onclick="openNav()">Profil</span></b></a><img class="profilpopup" src="Project\Background\icons8-info-100.png"><p><br><hr></p>
+	<a href="#" class="tekslogoutpopup"><b>Log out</b></a><img src="Project\Background\icons8-exit-100.png" class="logoutprofilpopup">
+		
+</div>
 
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p class="lingkaran"><p class="photo">Photo</p></p><br><br><br><hr>
+  <form>
+  	<p align="center">
+  		Username<br><input type="text" name="username" placeholder="username"><br>
+  		New Password<br><input type="Password" name="password" placeholder="password"><br><br>
+  		<input type="password" name="pass" placeholder="Confirm Password"><hr>User Information<hr>
+  	</p>
+  	<p align="center">
+  		Full Name<br><input type="text" name="fullname" placeholder="Full Name">
+  		Email<br><input type="text" name="email" placeholder="Email">
+  		Phone Number<br><input type="number" name="phone" placeholder="Phone Number"><br><br>
+  		<input type="submit" name="save" value="Save" style="width: 60%;">
+  	</p>
+  </form>
+</div>
+
+<script type="text/javascript">
+	function notif1(){
+		var x = document.getElementById("popup1");
+		var y = document.getElementById("popup2");
+		if (x.style.display == "none") {
+			y.style.display = "none"
+			x.style.display = "block"
+		}else{
+			x.style.display = "none"
+		}
+	}
+	function notifprofil(){
+		var x = document.getElementById("popup1");
+		var y = document.getElementById("popup2");
+		if (y.style.display == "none") {
+			y.style.display = "block"
+			x.style.display = "none"
+		}else{
+			y.style.display = "none"
+		}
+	}
+</script>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 </body>
 </html>
