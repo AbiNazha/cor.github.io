@@ -50,6 +50,7 @@ br { clear:left }
 .menu_simple ul li a:hover, .menu_simple ul li .current {
     color: red;
     background-color: orange;
+    height: 35px;
 }
 
 .menu_simple ul li a img{
@@ -529,6 +530,11 @@ br { clear:left }
     opacity: 0.3;
     letter-spacing: 3px;
 }
+
+.klik{cursor: pointer;}
+
+/*2. profil*/
+
 .popupprofil{
     display: none;
     position: relative;
@@ -574,4 +580,76 @@ br { clear:left }
     height: 30%;
     right: 10%;
     bottom: 10%;
+}
+{
+    position: relative;
+    text-align: center;
+    top: 35%;
+    color: #000000;
+    opacity: 0.3;
+    letter-spacing: 3px;
+}
+.sidenav {
+  height: 78%;
+  width: 0;
+  position: absolute;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  background-color: #27A4E3;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.lingkaran{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    bottom: 74%;
+    right: 24%;    
+    background-color: white;
+    border-radius: 60%;
+}
+.photo{
+    position: absolute;
+    bottom: 82%;
+    left: 42%;
+    font-size: 15px;
+    color: black;
+    z-index: 1;
+    font-family: Segoe UI;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.sidenav form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 90%; 
 }
