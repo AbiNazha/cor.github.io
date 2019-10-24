@@ -481,6 +481,11 @@ br { clear:left }
     box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
 
 }
+
+.newclass a{
+    color: black;
+}
+
 .newclass1{
     position: absolute;
     top: 18%;
