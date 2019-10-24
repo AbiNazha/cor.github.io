@@ -16,7 +16,6 @@ body{
 br { clear:left }
 .menu_simple {
     position: absolute;
-    position: fixed;
     top: 2%;
     width: 100%;
     height: 65px;
