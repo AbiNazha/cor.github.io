@@ -6,7 +6,7 @@
 	<body bgcolor="#8BDBFF">
 	<meta charset="utf-8">
 	<title>Course List</title>
-	<link rel="stylesheet" type="text/css" href="Project/CSS/courslistguru.css">
+	<link rel="stylesheet" type="text/css" href="Project/CSS/courslistguruisi.css">
 </head>
 
 
@@ -21,8 +21,11 @@
 </div>
 <p></p>
 <p class="judul">Course List</p>
-<p class="judul2">No Course Available</p>
-<div class="kotak"></div>
+<div class="kotak">
+	<a onclick="isicourse()">
+	<p class="judulcourse">1. Java Script</p></a>
+</div>
+
 
 <div class="newclass">
 	<a href="addcourselistguru.html">
@@ -46,7 +49,9 @@
 	<p class="notif">No Notification</p>
 </div>
 <!-- profil -->
-<div id="popup2" class="popupprofil"><b><a href="#" class="teksprofil"><span style="cursor:pointer" onclick="openNav()">Profil</span></b></a><img class="profilpopup" src="Project\Background\icons8-info-100.png"><p><br><hr></p>
+<div id="popup2" class="popupprofil"><b><a href="#" class="teksprofil"><span style="cursor:pointer" 
+	onclick="openNav()">Profil</span></b></a><img class="profilpopup" src="Project\Background\icons8-info-100.png">
+	<p><br><hr></p>
 	<a href="#" class="tekslogoutpopup"><b>Log out</b></a><img src="Project\Background\icons8-exit-100.png" class="logoutprofilpopup">
 		
 </div>
@@ -101,6 +106,9 @@ function openNav() {
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+}
+function isicourse() {
+  document.getElementById("isi").style.display="block";
 }
 </script>
 
