@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+	<img src="Project/Background/Logo.png" class="logo">
+	<img src="Project/Background/Logo.png" class="logo2">
+	<p class="student">Student</p>
+	<body bgcolor="#8BDBFF">
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="Project/CSS/addclassguru.css">
+</head>
+
+<div class="menu_simple">
+	<ul>
+		<li><a href="homeguru.html"><img src="Project/Background/home.png" ></a></li>
+		<li><a href="courslistguru.html"><img src="Project/Background/list.png" ></a></li>
+		<li><a href="messageguru.html"><img src="Project/Background/chat.png" ></a></li>
+		<li><a class="klik" onclick="notif1()"><img src="Project/Background/bell.png" ></a></li>
+		<li><a class="klik" onclick="notifprofil()"><img src="Project/Background/profil.png"></a>
+	</ul>
+</div>
+<p></p>
+<p class="judul1">Add Class</p>
+<div class="kotak">
+		<div class="kotakkecil1"><p class="logonya1">Add Photo</p></div>
+		<form >
+			<input class="formaddclass" type="text" name="namaguru" placeholder="Nama Guru" required><br><br>
+			<input class="kodekelas" type="text" name="Kodekelas" placeholder="Kode Kelas" required>
+			<input class="addnamakelas" type="text" name="namakelas" placeholder="Nama Kelas" required>
+			<p>
+				<textarea class="Deskripsi" rows="5" cols="35" placeholder="Keterangan"></textarea>
+			</p>
+			<input class="saveadd" type="submit" name="" value="Save">
+		</form>
+	<a href="homeguru.html"><input class="backadd" type="submit" name="" value="Back"></a>
+</div>
+
+<div id="footer">
+</div>
+<div class="bawah">
+	<p class="namacr">©2019 ThinkSmart Limited</p>
+	<p class="english">English</p>
+	<p class="tos">Term & Conditions</p>
+	<p class="pp">privacy policy</p>
+	<p class="contus">Contact Us</p>
+</div>
+<!-- notif -->
+<div id="popup1" class="popupnotif">
+	<p class="notif">No Notification</p>
+</div>
+<!-- profil -->
+<div id="popup2" class="popupprofil">
+	<b><a href="#" class="teksprofil">
+	<span style="cursor:pointer" onclick="openNav()">Profil</span></b></a>
+	<img class="profilpopup" src="Project\Background\icons8-info-100.png">
+	<p><br><hr></p>
+	<a href="index.html" class="tekslogoutpopup"><b>Log out</b></a>
+	<img src="Project\Background\icons8-exit-100.png" class="logoutprofilpopup">	
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p class="lingkaran"><p class="photo">Photo</p></p><br><br><br><hr>
+  <form action>
+  	<p align="center">
+  		Username<br><input type="text" name="username" placeholder="username" required><br>
+  		New Password<br><input type="Password" name="password" placeholder="password" required><br><br>
+  		<input type="password" name="pass" placeholder="Confirm Password" required><hr>User Information<hr>
+  	</p>
+  	<p align="center">
+  		Full Name<br><input type="text" name="fullname" placeholder="Full Name" required>
+  		Email<br><input type="text" name="email" placeholder="Email" required>
+  		Phone Number<br><input type="number" name="phone" placeholder="Phone Number" required><br><br>
+  		<input type="submit" name="save" value="Save" style="width: 60%;" required>
+  	</p>
+  </form>
+</div>
+
+<script type="text/javascript">
+	function notif1(){
+		var x = document.getElementById("popup1");
+		var y = document.getElementById("popup2");
+		if (x.style.display == "none") {
+			y.style.display = "none"
+			x.style.display = "block"
+		}else{
+			x.style.display = "none"
+		}
+	}
+	function notifprofil(){
+		var x = document.getElementById("popup1");
+		var y = document.getElementById("popup2");
+		if (y.style.display == "none") {
+			y.style.display = "block"
+			x.style.display = "none"
+		}else{
+			y.style.display = "none"
+		}
+	}
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+  		document.getElementById("mySidenav").style.width = "0";
+	}
+</script>
+
+</body>
+</html>
