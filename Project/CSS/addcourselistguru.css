@@ -19,11 +19,9 @@ br { clear:left }
     width: 100%;
     height: 65px;
     background-color:white;
-    /*transform: translate(-8px,0px);*/
 }
 .menu_simple ul {
     margin: 0; padding: 0;
-    /*transform: translate(1000px,0px);*/
 }
 .menu_simple ul{
     display: flex;
@@ -58,40 +56,117 @@ br { clear:left }
     height: 30px;
 }
 
-
-
 .kotak{
     width: 1100px;
     height: 400px;
     background-color: white;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 10%;
     border-radius: 4px;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
     box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
 }
 
 .judul{
     font-size: 30px;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 15%;
     font-family: Segoe UI;
     font-weight: bold;
 }
-
-.judul2{
-    font-size: 25px;
+.judulcourse{
     position: absolute;
-    top: 53%;
-    left: 15%;
+    top: 10%;
+    left: 5%;
+    height: 10%;
+    border: 1px solid black;
+    text-align: center;
+    width: 40%;
     font-family: Segoe UI;
     font-weight: bold;
-    z-index: 1;
+    border-radius: 5px;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
 }
-
+.Materi{
+    position: absolute;
+    top: 28%;
+    left: 6%;
+    width: 20%;
+    height: 9%;
+    padding-left: 20px;
+    border: 3px solid #808080;
+    border-radius: 10px;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
+.tugas{
+    position: absolute;
+    top: 43%;
+    left: 6%;
+    width: 20%;
+    height: 9%;
+    padding-left: 20px;
+    border: 3px solid #808080;
+    border-radius: 10px;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
+.tpengumpulan{
+    position: absolute;
+    top: 58%;
+    left: 6%;
+    width: 20%;
+    height: 9%;
+    padding-left: 20px;
+    border: 3px solid #808080;
+    border-radius: 10px;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
+.sampaitanggal{
+    position: absolute;
+    top: 72%;
+    left: 6%;
+    width: 20%;
+    height: 9%;
+    padding-left: 20px;
+    border: 3px solid #808080;
+    border-radius: 10px;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
+.catatan{
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    width: 40%;
+    font-size: 120%;
+    padding-top: 40px;
+    text-align: center;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    font-weight: bold;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
+.createcourse{
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    width: 20%;
+    padding: 1%;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    background-color:#00ffff;
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
+.backcourse{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 20%;
+    padding: 1%;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    background-color: #00ffff;
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
 .namacr{
         font-size: 15px;
     position: absolute;
@@ -167,68 +242,6 @@ br { clear:left }
     top: 130%;
     z-index: 1;
 }
-.kotaknewclass{
-        width: 90px;
-    height: 30px;
-    background-color: #5BA8FF;
-    position: absolute;
-    top: 105%;
-    left: 83%;
-    border-radius: 30px;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-
-}
-.save1{
-    position: absolute;
-    top: 104%;
-    left: 85%;
-    font-size: 13px;
-    z-index: 1;
-    font-family: Segoe UI;
-    font-weight: bold;
-}
-.kotakkecil1{
-    width: 350px;
-    height: 50px;
-    background-color: white;
-    position: absolute;
-    top: 65%;
-    left: 14%;
-    border-radius: 6px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-}
-.kotakkecil2{
-    width: 350px;
-    height: 50px;
-    background-color: white;
-    position: absolute;
-    top: 77%;
-    left: 14%;
-    border-radius: 6px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-}
-.kotakkecil3{
-    width: 350px;
-    height: 50px;
-    background-color: white;
-    position: absolute;
-    top: 89%;
-    left: 14%;
-    border-radius: 6px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-}
-
 
 #footer{
     height: 50px;
@@ -314,14 +327,7 @@ br { clear:left }
     right: 10%;
     bottom: 10%;
 }
-{
-    position: relative;
-    text-align: center;
-    top: 35%;
-    color: #000000;
-    opacity: 0.3;
-    letter-spacing: 3px;
-}
+
 .sidenav {
   height: 78%;
   width: 0;
