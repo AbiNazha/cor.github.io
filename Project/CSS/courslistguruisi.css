@@ -19,9 +19,11 @@ br { clear:left }
     width: 100%;
     height: 65px;
     background-color:white;
+    /*transform: translate(-8px,0px);*/
 }
 .menu_simple ul {
     margin: 0; padding: 0;
+    /*transform: translate(1000px,0px);*/
 }
 .menu_simple ul{
     display: flex;
@@ -57,110 +59,27 @@ br { clear:left }
 }
 
 .kotak{
-    width: 1100px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     background-color: white;
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 39%;
+    left: 33%;
     border-radius: 4px;
     box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
 }
 
-.judulcourse{
+.judul{
+    font-size: 30px;
     position: absolute;
-    top: 10%;
-    left: 5%;
-    height: 10%;
-    border: 1px solid black;
-    text-align: center;
-    width: 40%;
+    top: 20%;
+    left: 25%;
     font-family: Segoe UI;
     font-weight: bold;
-    border-radius: 5px;    
-    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
 }
-.Materi{
-    position: absolute;
-    top: 28%;
-    left: 6%;
-    width: 20%;
-    height: 9%;
-    padding-left: 20px;
-    border: 3px solid #808080;
-    border-radius: 10px;    
-    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
-}
-.tugas{
-    position: absolute;
-    top: 43%;
-    left: 6%;
-    width: 20%;
-    height: 9%;
-    padding-left: 20px;
-    border: 3px solid #808080;
-    border-radius: 10px;    
-    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
-}
-.tpengumpulan{
-    position: absolute;
-    top: 58%;
-    left: 6%;
-    width: 20%;
-    height: 9%;
-    padding-left: 20px;
-    border: 3px solid #808080;
-    border-radius: 10px;    
-    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
-}
-.sampaitanggal{
-    position: absolute;
-    top: 72%;
-    left: 6%;
-    width: 20%;
-    height: 9%;
-    padding-left: 20px;
-    border: 3px solid #808080;
-    border-radius: 10px;    
-    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
-}
-.catatan{
-    position: absolute;
-    top: 33%;
-    left: 40%;
-    width: 40%;
-    font-size: 120%;
-    padding-top: 40px;
-    text-align: center;
-    border: 1px solid #808080;
-    border-radius: 20px;
-    font-weight: bold;    
-    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
-}
-.createcourse{
-    position: absolute;
-    top: 80%;
-    left: 75%;
-    width: 20%;
-    padding: 1%;
-    border-radius: 20px;
-    font-family: Segoe UI;
-    background-color:#00ffff;
-    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
-}
-.backcourse{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    width: 20%;
-    padding: 1%;
-    border-radius: 20px;
-    font-family: Segoe UI;
-    background-color: #00ffff;
-    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
-}
+
 .namacr{
-        font-size: 15px;
+    font-size: 15px;
     position: absolute;
     top: 133%;
     left: 16%;
@@ -234,6 +153,40 @@ br { clear:left }
     top: 130%;
     z-index: 1;
 }
+.judulcourse{
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    height: 10%;
+    border: 1px solid black;
+    text-align: center;
+    width: 99.6%;
+    font-family: Segoe UI;
+    font-weight: bold;
+    border-radius: 5px;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
+.kotaknewclass{
+    width: 90px;
+    height: 30px;
+    background-color: #5BA8FF;
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    border-radius: 30px;
+    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
+
+}
+.newclass1{
+    position: absolute;
+    top: 29%;
+    left: 63.5%;
+    font-size: 12px;
+    z-index: 1;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
 
 #footer{
     height: 50px;
@@ -246,6 +199,7 @@ br { clear:left }
     background-color: #16293E;
     text-align: center;
 }
+
 .popupnotif{
     display: none;
     position: relative;
@@ -319,7 +273,14 @@ br { clear:left }
     right: 10%;
     bottom: 10%;
 }
-
+{
+    position: relative;
+    text-align: center;
+    top: 35%;
+    color: #000000;
+    opacity: 0.3;
+    letter-spacing: 3px;
+}
 .sidenav {
   height: 78%;
   width: 0;
@@ -354,10 +315,6 @@ br { clear:left }
   margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 .lingkaran{
     width: 50%;
     height: 20%;
