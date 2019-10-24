@@ -468,6 +468,28 @@ br { clear:left }
     z-index: 1;
 }
 
+.kotaknewclass{
+        width: 90px;
+    height: 30px;
+    background-color: #5BA8FF;
+    position: absolute;
+    top: 19%;
+    left: 83%;
+    border-radius: 30px;
+    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
+    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
+
+}
+.newclass1{
+    position: absolute;
+    top: 18%;
+    left: 83.5%;
+    font-size: 13px;
+    z-index: 1;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
 
 #footer{
     height: 50px;
