@@ -96,7 +96,8 @@ br { clear:left }
 .kotakkecil1{
     width: 250px;
     height: 250px;
-    background-color: white;
+    background: url("../Background/books.jpg");
+    background-size: 100%;
     position: absolute;
     top: 32%;
     left: 14%;
@@ -110,7 +111,7 @@ br { clear:left }
 .namakelas1{
     position: absolute;
     top:27%;
-    left:37%;
+    left:35%;
     font-size: 30px;
     z-index: 1;
     font-family: Segoe UI;
@@ -120,7 +121,7 @@ br { clear:left }
 .keterangankelas1{
     position: absolute;
     top:37%;
-    left:37.5%;
+    left:35.5%;
     font-size: 20px;
     z-index: 1;
     font-family: Segoe UI;
