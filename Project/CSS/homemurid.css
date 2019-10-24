@@ -110,59 +110,10 @@ br { clear:left }
     -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
     box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
 }
-.difficulty1{
-    position: absolute;
-    top:31.5%;
-    left:36.5%;
-    font-size: 13px;
-    z-index: 1;
-    font-family: Segoe UI;
-    font-weight: bold;
-}
-
-.kotakpilihan1{
-    width: 100px;
-    height: 35px;
-    background-color: white;
-    position: absolute;
-    top: 32%;
-    left: 35%;
-    border-radius: 30px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-
-}
-
-.type1{
-    position: absolute;
-    top:31.5%;
-    left:46.5%;
-    font-size: 13px;
-    z-index: 1;
-    font-family: Segoe UI;
-    font-weight: bold;
-}
-
-.kotakpilihan11{
-        width: 100px;
-    height: 35px;
-    background-color: white;
-    position: absolute;
-    top: 32%;
-    left: 44%;
-    border-radius: 30px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-
-}
 
 .namakelas1{
     position: absolute;
-    top:37%;
+    top:27%;
     left:37%;
     font-size: 30px;
     z-index: 1;
@@ -172,7 +123,7 @@ br { clear:left }
 
 .keterangankelas1{
     position: absolute;
-    top:47%;
+    top:37%;
     left:37.5%;
     font-size: 20px;
     z-index: 1;
@@ -205,59 +156,10 @@ br { clear:left }
     -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
     box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
 }
-.difficulty2{
-    position: absolute;
-    top: 28%;
-    left: 70.5%;
-    font-size: 8px;
-    z-index: 1;
-    font-family: Segoe UI;
-    font-weight: bold;
-}
-
-.kotakpilihan2{
-        width: 55px;
-    height: 25px;
-    background-color: white;
-    position: absolute;
-    top: 28%;
-    left: 70%;
-    border-radius: 30px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-
-}
-
-.type2{
-    position: absolute;
-    top: 27.5%;
-    left: 76%;
-    font-size: 9px;
-    z-index: 1;
-    font-family: Segoe UI;
-    font-weight: bold;
-}
-
-.kotakpilihan22{
-        width: 55px;
-    height: 25px;
-    background-color: white;
-    position: absolute;
-    top: 28%;
-    left: 75%;
-    border-radius: 30px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-
-}
 
 .namakelas2{
     position: absolute;
-    top:30%;
+    top:25%;
     left:70%;
     font-size: 20px;
     z-index: 1;
@@ -267,7 +169,7 @@ br { clear:left }
 
 .keterangankelas2{
     position: absolute;
-    top:36%;
+    top:31%;
     left:70.5%;
     font-size: 13px;
     z-index: 1;
@@ -299,59 +201,10 @@ br { clear:left }
     -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
     box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
 }
-.difficulty3{
-    position: absolute;
-    top: 51.7%;
-    left: 70.5%;
-    font-size: 8px;
-    z-index: 1;
-    font-family: Segoe UI;
-    font-weight: bold;
-}
-
-.kotakpilihan3{
-        width: 55px;
-    height: 25px;
-    background-color: white;
-    position: absolute;
-    top: 52%;
-    left: 70%;
-    border-radius: 30px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-
-}
-
-.type3{
-    position: absolute;
-    top: 51.5%;
-    left: 76%;
-    font-size: 9px;
-    z-index: 1;
-    font-family: Segoe UI;
-    font-weight: bold;
-}
-
-.kotakpilihan33{
-        width: 55px;
-    height: 25px;
-    background-color: white;
-    position: absolute;
-    top: 52%;
-    left: 75%;
-    border-radius: 30px;
-    opacity: 0.8;
-    -webkit-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    -moz-box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
-
-}
 
 .namakelas3{
     position: absolute;
-    top:55%;
+    top:49%;
     left:70%;
     font-size: 20px;
     z-index: 1;
@@ -361,7 +214,7 @@ br { clear:left }
 
 .keterangankelas3{
     position: absolute;
-    top:61%;
+    top:55%;
     left:70.5%;
     font-size: 13px;
     z-index: 1;
@@ -469,7 +322,7 @@ br { clear:left }
 }
 
 .kotaknewclass{
-        width: 90px;
+    width: 90px;
     height: 30px;
     background-color: #5BA8FF;
     position: absolute;
