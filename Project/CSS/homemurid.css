@@ -7,7 +7,6 @@ body{
     height: 80px;
     width: 150px;
     position: absolute;
-    position: fixed;
     left: 4%;
     top: 0%;
     z-index: 3;
@@ -303,7 +302,6 @@ br { clear:left }
 
 .student{
     position: absolute;
-    position: fixed;
     top: 0%;
     left: 17%;
     font-size: 25px;
@@ -347,6 +345,7 @@ br { clear:left }
     z-index: 1;
     font-family: Segoe UI;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #footer{
@@ -509,3 +508,49 @@ br { clear:left }
     padding-left: 10px;
     width: 90%; 
 }
+
+/*Pop up add class*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.addkelas{
+    display: none;
+    position: relative;
+    background-color: #e8f8ff;
+    width: 300px;
+    height: 100px;
+    padding-top: 5px;
+    top: 160px;
+    left: 910px;
+    z-index: 5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.5);
+}
+
+.kodekelas{
+    margin-left: 15px;
+}
+
+.addkelas input{
+    position: relative;
+    top: -10px;
+    margin-left: 15px;
+}
+
+.inputkode input[type=submit]{
+    background-color: #5BA8FF;
+    border: none;
+    border-radius: 5px; 
+    position: relative;
+    top: 3px;
+    left: 205px;
+    width: 70px;
+    height: 20px;
+}
+
+
+

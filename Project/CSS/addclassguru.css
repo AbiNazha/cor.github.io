@@ -108,10 +108,12 @@ br { clear:left }
     left: 75%;
     width: 20%;
     padding: 1%;
+    border: none;
     border-radius: 20px;
     font-family: Segoe UI;
     background-color:#00ffff;
     box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 .backadd{
     position: absolute;
@@ -119,10 +121,12 @@ br { clear:left }
     left: 50%;
     width: 20%;
     padding: 1%;
+    border: none;
     border-radius: 20px;
     font-family: Segoe UI;
     background-color: #00ffff;
     box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 .judul1{
     font-size: 30px;
