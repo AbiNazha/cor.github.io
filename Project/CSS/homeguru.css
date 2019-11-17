@@ -125,6 +125,14 @@ br { clear:left }
     z-index: 1;
     font-family: Segoe UI;
 }
+.addmurid{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top: 300px;
+    left: 500px;
+    border-radius: 20px;
+}
 
 .logonya22{
     position: absolute;
