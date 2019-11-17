@@ -138,6 +138,19 @@ br { clear:left }
     border-radius: 6px;
     opacity: 0.8;
 }
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+#flip{
+    cursor: pointer;
+    width: auto;
+    float: right;
+    font-size: 1.3vw;
+    margin-right: 794px;
+}
 .table{
     font-size: 1.1vw;
     width: 100%;
