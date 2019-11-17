@@ -1,0 +1,395 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+br { clear:left }
+.menu_simple {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    height: 65px;
+    background-color:white;
+    /*transform: translate(-8px,0px);*/
+}
+.menu_simple ul {
+    margin: 0; padding: 0;
+    /*transform: translate(1000px,0px);*/
+}
+.menu_simple ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+.menu_simple ul li{
+    height: 60px;
+    width: 50px;
+}
+
+.menu_simple ul li a {
+    float: left; text-decoration: none;
+    color: white; 
+    padding: 15px 10px;
+    background-color:  white;
+}
+.menu_simple ul li a:visited {
+    color: white;
+}
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: red;
+    background-color: orange;
+    height: 35px;
+}
+
+.menu_simple ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+.iconnya{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 28%;
+    left: 25%;
+    z-index: 1;
+
+}
+
+#content{
+    background: #8BDBFF;
+    float: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 120px;
+    overflow: auto;
+}
+.kotak1{
+    width: 40%;
+    height: 20%;
+    float: left;
+    left: 100px;
+    background-color: white;
+    padding-top: 10px;
+    margin: 30px;
+    border-radius: 6px;
+    opacity: 0.8;
+    box-shadow: -11px 6px 14px -6px rgba(0,0,0,0.5);
+
+}
+.usermurid{
+    width: 30%;
+    height: 30%;
+    font-size:1vw;
+    float: left;
+    padding: 10px;
+    margin:10px;
+    border: 1px solid black;
+    border-radius: 10px;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+}
+.class{
+    font-size: 1vw;
+    width: 30%;
+    height: 30%;
+    font-size:1vw;
+    float: left;
+    padding: 10px;
+    margin:10px;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 10px;    
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+
+}
+.buton1{
+    font-size:1vw;
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    background-color:#00ffff;
+    box-shadow: -20px 6px 14px -6px rgba(0,0,0,0.5);
+    cursor: pointer;
+    margin-top: 2%;
+}
+.kotak2{
+    /*background-color: #8BDBFF;*/
+    background-color: white;
+    font-size: 1vw;
+    width: 30%;
+    height: auto;
+    margin: 50px;
+    margin-left: 100px;
+    float: left;    
+    border-radius: 6px;
+    opacity: 0.8;
+}
+.table{
+    font-size: 1.1vw;
+    width: 100%;
+}
+
+
+.namacr{
+    font-size:1.5vw;
+    float: left;
+    font-family: Segoe UI;
+    font-weight: bold;
+    z-index: 1;
+    color: white;
+}
+
+.english{
+    font-size:1.5vw;
+    float: right;
+
+    padding-right: 10px;
+    padding-left: 15px;
+    /*font-family: Segoe UI;*/
+    font-weight: bold;
+    z-index: 1;
+    color: white;
+
+}
+
+.tos{
+    font-size:1.5vw;
+    float: right;
+    padding-left: 15px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    z-index: 1;
+    color: white;
+
+}
+.pp{
+    font-size:1.5vw;
+    float: right;
+    padding-left: 15px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    z-index: 1;
+    color: white;
+
+}
+.contus{
+    font-size:1.5vw;
+    float: right;
+    padding-left: 15px;
+   /* font-family: Segoe UI;*/
+    font-weight: bold;
+    z-index: 1;
+    color: white;
+
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+.student{
+    position: absolute;
+    top: 0%;
+    left: 17%;
+    font-size: 25px;
+    color: black;
+    z-index: 1;
+    font-family: Segoe UI;
+}
+
+.logo2{
+    float: left;
+    width: 13%;
+    z-index: 1;
+}
+
+#footer{
+    background: #16293E;
+    clear: both;
+    text-align: center;
+    min-height: 15%;
+    padding-top: 20px;
+/*    color: white;
+    bottom: -300px;
+    left: 0;
+    padding: 2rem;
+    background-color: #16293E;
+    text-align: center;
+    min-height: 50px;*/
+/*  position: absolute;
+    background:#004161;
+    height:10%;
+    width: 100%;
+    line-height:70px;
+    color:#fff;
+    text-align:center;
+    bottom: 0px;*/
+
+}
+.popupnotif{
+    display: none;
+    position: relative;
+    position: fixed;    
+    top: 80px;
+    left: 1000px;
+    width: 300px;
+    height: 200px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #00000029;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.notif{
+    position: relative;
+    text-align: center;
+    top: 35%;
+    color: #000000;
+    opacity: 0.3;
+    letter-spacing: 3px;
+}
+
+.klik{cursor: pointer;}
+
+/*2. profil*/
+
+.popupprofil{
+    display: none;
+    position: relative;
+    position: fixed;    
+    top: 80px;
+    right: 10px;
+    width: 230px;
+    height: 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #00000029;
+    border-radius: 10px;
+    z-index: 999;
+}
+.profilpopup{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    right: 10%;
+    bottom: 60%;
+}
+
+.teksprofil{
+    position: absolute;
+    font-family: Segoe UI;
+    font-size: 15px;
+    text-decoration:none;
+    color: black;
+    bottom: 65%;
+    left: 30%;
+}
+.tekslogoutpopup{
+    position: absolute;
+    font-family: Segoe UI;
+    font-size: 15px;
+    text-decoration:none;
+    color: black;
+    bottom: 15%;
+    left: 30%;
+}
+.logoutprofilpopup{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    right: 10%;
+    bottom: 10%;
+}
+{
+    position: relative;
+    text-align: center;
+    top: 35%;
+    color: #000000;
+    opacity: 0.3;
+    letter-spacing: 3px;
+}
+.sidenav {
+  height: 78%;
+  width: 0;
+  position: absolute;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  background-color: #27A4E3;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.lingkaran{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    bottom: 74%;
+    right: 24%;    
+    background-color: white;
+    border-radius: 60%;
+}
+.photo{
+    position: absolute;
+    bottom: 82%;
+    left: 42%;
+    font-size: 15px;
+    color: black;
+    z-index: 1;
+    font-family: Segoe UI;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.sidenav form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 90%; 
+}
+
