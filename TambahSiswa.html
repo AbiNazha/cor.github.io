@@ -35,7 +35,8 @@
 			<button class="buton1" >ADD</button>
 		</form>
 	</div>
-	<div class="kotak2">
+	<div id="flip">Click table Student</div>
+	<div class="kotak2" id="panel">
 			<table class="table" border="2" id='tabelinput'>
 				<tr bgcolor="#00ffff">
 				  <td >Username Murid</td>
@@ -129,6 +130,15 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+
 
 
 </body>
