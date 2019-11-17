@@ -129,11 +129,13 @@ br { clear:left }
 .kotak2{
     /*background-color: #8BDBFF;*/
     background-color: white;
+    display: none;
     font-size: 1vw;
     width: 30%;
     height: auto;
     margin: 50px;
     margin-left: 100px;
+    margin-top: 0px;
     float: left;    
     border-radius: 6px;
     opacity: 0.8;
