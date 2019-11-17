@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+
+	<body>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tambah Siswa</title>
+	<link rel="stylesheet" type="text/css" href="Project/CSS/TambahSiswa.css">
+</head>
+
+
+<div class="menu_simple">
+		<img src="Project/Background/Logo.png" class="logo">
+	<ul>
+		<li><a href="homeguru.html"><img src="Project/Background/home.png" ></a></li>
+		<li><a href="courslistguru.html"><img src="Project/Background/list.png" ></a></li>
+		<li><a href="#"><img src="Project/Background/chat.png" ></a></li>
+		<li><a class="klik" onclick="notif1()"><img src="Project/Background/bell.png" ></a></li>
+		<li><a class="klik" onclick="notifprofil()"><img src="Project/Background/profil.png"></a>
+	</ul>
+</div>
+
+<div id="content">
+	<div class="kotak1">
+		<form>
+			<input class="usermurid" type="text" name="Usermurid" placeholder="Username Murid" required>
+			<input class="usermurid" type="text" name="passmurid" placeholder="Password Murid" required>
+			<select class="class" name='agama' required>
+                <option>Jarkom
+                <option>Bimbel IPA
+                <option>PBO
+                <option>Grafika             
+                <option>Admin Server       
+            </select>
+			<button class="buton1" >ADD</button>
+		</form>
+	</div>
+	<div class="kotak2">
+			<table class="table" border="2" id='tabelinput'>
+				<tr bgcolor="#00ffff">
+				  <td >Username Murid</td>
+				  <td>Password Murid</td>
+				  <td>Kelas</td>
+				</tr>
+				<tr>
+					<th>Rizki</th>
+					<th>abc123</th>
+					<th>Jarkom</th>
+				</tr>
+				<tr>
+					<th>Abinazha</th>
+					<th>abc1234</th>
+					<th>PBO	</th>
+				</tr>
+			</table></div>
+
+	</div>
+
+<div id="footer">
+		<img src="Project/Background/Logo.png" class="logo2">
+		<p class="namacr">©2019 ThinkSmart Limited</p>
+		<p class="english">English</p>
+		<p class="tos">Term & Conditions</p>
+		<p class="pp">privacy policy</p>
+		<p class="contus">Contact Us</p>
+</div>
+
+
+
+<!-- notif -->
+<div id="popup1" class="popupnotif">
+	<p class="notif">No Notification</p>
+</div>
+<!-- profil -->
+<div id="popup2" class="popupprofil"><b><a href="#" class="teksprofil"><span style="cursor:pointer" onclick="openNav()">Profil</span></b></a><img class="profilpopup" src="Project\Background\icons8-info-100.png"><p><br><hr></p>
+	<a href="Untuk Guru.html" class="tekslogoutpopup"><b>Log out</b></a><img src="Project\Background\icons8-exit-100.png" class="logoutprofilpopup">
+		
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p class="lingkaran"><p class="photo">Photo</p></p><br><br><br><hr>
+  <form>
+  	<p align="center">
+  		Username<br><input type="text" name="username" placeholder="username"><br>
+  		New Password<br><input type="Password" name="password" placeholder="password"><br><br>
+  		<input type="password" name="pass" placeholder="Confirm Password"><hr>User Information<hr>
+  	</p>
+  	<p align="center">
+  		Full Name<br><input type="text" name="fullname" placeholder="Full Name">
+  		Email<br><input type="text" name="email" placeholder="Email">
+  		Phone Number<br><input type="number" name="phone" placeholder="Phone Number"><br><br>
+  		<input type="submit" name="save" value="Save" style="width: 60%;">
+  	</p>
+  </form>
+</div>
+
+<script type="text/javascript">
+	function notif1(){
+		var x = document.getElementById("popup1");
+		var y = document.getElementById("popup2");
+		if (x.style.display == "none") {
+			y.style.display = "none"
+			x.style.display = "block"
+		}else{
+			x.style.display = "none"
+		}
+	}
+	function notifprofil(){
+		var x = document.getElementById("popup1");
+		var y = document.getElementById("popup2");
+		if (y.style.display == "none") {
+			y.style.display = "block"
+			x.style.display = "none"
+		}else{
+			y.style.display = "none"
+		}
+	}
+</script>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+</body>
+</html>
