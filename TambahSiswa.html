@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tambah Siswa</title>
 	<link rel="stylesheet" type="text/css" href="Project/CSS/TambahSiswa.css">
+	<script type="text/javascript" src="TambahSiswa.js"></script>
 </head>
 
 
@@ -22,17 +23,17 @@
 
 <div id="content">
 	<div class="kotak1">
-		<form name="biodata" method="post" action="">
-			<input class="usermurid" type="text" name="namemurid" id="val_nm" placeholder="Username Murid" required>
-			<input class="usermurid" type="text" name="passmurid" id="val_pm" placeholder="Password Murid" required>
-			<select class="class" name='agama' required>
+		<form name='biodata' method="post" action="#">
+			<input class="usermurid" type="text" name="Username" id='val_Username' placeholder="Username Murid" required>
+			<input class="usermurid" type="text" name="Password" id='val_Password' placeholder="Password Murid" required>
+			<select class="class" name='kelas' required>
                 <option>Jarkom
                 <option>Bimbel IPA
                 <option>PBO
                 <option>Grafika             
                 <option>Admin Server       
             </select>
-			<button class="buton1" onclick="terimainput()">ADD</button>
+			<button class="buton1" onClick='terimainput()'>ADD</button>
 		</form>
 	</div><br>
 
@@ -43,16 +44,6 @@
 				  <td >Username Murid</td>
 				  <td>Password Murid</td>
 				  <td>Kelas</td>
-				</tr>
-				<tr>
-					<th>Rizki</th>
-					<th>abc123</th>
-					<th>Jarkom</th>
-				</tr>
-				<tr>
-					<th>Abinazha</th>
-					<th>abc1234</th>
-					<th>PBO	</th>
 				</tr>
 			</table>
 
@@ -83,7 +74,7 @@
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <p class="lingkaran"><p class="photo">Photo</p></p><br><br><br><hr>
-  <form>
+  <form >
   	<p align="center">
   		Username<br><input type="text" name="username" placeholder="username"><br>
   		New Password<br><input type="Password" name="password" placeholder="password"><br><br>
@@ -139,51 +130,6 @@ $(document).ready(function(){
     $("#panel").slideToggle("slow");
   });
 });
-</script>
-
-<script>
-	 function terimainput(){
-var a=document.forms['biodata']['namemurid'].value;
-var b=document.forms['biodata']['passmurid'].value;
-var c=document.forms['biodata']['kelass'].value;
-
-if(a==null || a=="")
-{
-  document.getElementById("val_nm").innerHTML="<font color='red'><b>* Harap Isi Kolom NIM Dengan Benar</b></font>";
-
-  if(b==null || b=="") {
-  document.getElementById("val_pm").innerHTML="<font color='red'><b>* Harap Isi Kolom NAMA Dengan Benar</b></font>";  
-  } else {
-  document.getElementById("val_pm").innerHTML="<font color='purple'>* Benar</font>";
-  }
-
-}
- 
-else {
-
-document.getElementById("val_nm").innerHTML="<font color='purple'>* Benar</font>";
-
-if(b==null || b=="") {
-  document.getElementById("val_pm").innerHTML="<font color='red'><b>* Harap Isi Kolom NAMA Dengan Benar</b></font>";  
-  }
-
-   else {
-
-    document.getElementById("val_pm").innerHTML="<font color='purple'>* Benar</font>";
-
-    var tabel = document.getElementById("tabelinput");
-    var row = tabel.insertRow(1);
-    var cell1 = row.insertCell(0);
-    var cell2 = row.insertCell(1);
-    var cell3 = row.insertCell(2);
-
-    cell1.innerHTML = a;
-    cell2.innerHTML = b;
-    cell3.innerHTML = c;
-
-  }
-}
-}
 </script>
 
 </body>
